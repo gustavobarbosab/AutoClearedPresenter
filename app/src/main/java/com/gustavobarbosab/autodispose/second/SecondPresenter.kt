@@ -18,9 +18,9 @@ class SecondPresenter(view: View) : AutoClearedPresenter<View>(view), SecondCont
             .add(
                 Completable
                     .complete()
+                    .delay(5, TimeUnit.SECONDS)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
-                    .delay(5, TimeUnit.SECONDS)
                     .subscribe({ view?.showSuccess() }, { view?.showError() })
             )
     }
