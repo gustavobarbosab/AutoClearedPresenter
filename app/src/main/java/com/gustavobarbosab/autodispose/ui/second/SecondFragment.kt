@@ -25,7 +25,7 @@ class SecondFragment : Fragment(), SecondContract.View {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         button_second.setOnClickListener {
-            findNavController().popBackStack()
+            findNavController().navigate(R.id.action_SecondFragment_to_ThirdFragment)
         }
         presenter = SecondPresenter(this)
         presenter.getNamesFromService()

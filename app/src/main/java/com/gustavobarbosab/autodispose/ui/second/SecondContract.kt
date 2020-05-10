@@ -1,6 +1,6 @@
 package com.gustavobarbosab.autodispose.ui.second
 
-import com.gustavobarbosab.autodispose.autocleared.ViewObservable
+import com.gustavobarbosab.autoclearedpresenter.ViewObservable
 
 interface SecondContract {
 

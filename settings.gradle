@@ -1,2 +1,3 @@
 rootProject.name='Auto Dispose'
 include ':app'
+include ':autoclearedpresenter'

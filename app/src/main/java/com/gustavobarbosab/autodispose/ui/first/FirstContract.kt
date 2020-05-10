@@ -1,6 +1,6 @@
 package com.gustavobarbosab.autodispose.ui.first
 
-import com.gustavobarbosab.autodispose.autocleared.ViewObservable
+import com.gustavobarbosab.autoclearedpresenter.ViewObservable
 
 interface FirstContract {
 

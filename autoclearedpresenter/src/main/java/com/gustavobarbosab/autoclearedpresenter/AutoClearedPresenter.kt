@@ -1,4 +1,4 @@
-package com.gustavobarbosab.autodispose.autocleared
+package com.gustavobarbosab.autoclearedpresenter
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
