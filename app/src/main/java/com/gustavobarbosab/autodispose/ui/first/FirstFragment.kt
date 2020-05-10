@@ -1,4 +1,4 @@
-package com.gustavobarbosab.autodispose.first
+package com.gustavobarbosab.autodispose.ui.first
 
 import android.os.Bundle
 import android.view.LayoutInflater

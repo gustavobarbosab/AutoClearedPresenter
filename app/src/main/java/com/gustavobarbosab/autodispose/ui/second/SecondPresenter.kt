@@ -1,8 +1,7 @@
-package com.gustavobarbosab.autodispose.second
+package com.gustavobarbosab.autodispose.ui.second
 
-import android.util.Log
-import com.gustavobarbosab.autodispose.AutoClearedPresenter
-import com.gustavobarbosab.autodispose.second.SecondContract.View
+import com.gustavobarbosab.autodispose.autocleared.AutoClearedPresenter
+import com.gustavobarbosab.autodispose.ui.second.SecondContract.View
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
